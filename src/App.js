@@ -14,10 +14,11 @@ function App() {
   return (
 <>
       <NavigationBar/>
-      <HomePage/>
+        <HomePage/>
       <SkillsPage/>
       <Projects/>
-      <ContactsPage/>
+      <ContactsPage/> 
+   
 
 {/* <div className="App">
       <h1>Skills</h1>

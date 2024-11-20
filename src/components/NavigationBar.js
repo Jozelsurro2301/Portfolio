@@ -1,15 +1,19 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import NavbarBrand from 'react-bootstrap/Navbar';
+import React, {useState} from 'react'
 import logo from '../static/img/logo.png'
 import '../'
 
 
 
 export const NavigationBar = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  
+
   return (
     <nav className='mynavbar'>
       <div className='navbar-logo-container'>
@@ -19,10 +23,16 @@ export const NavigationBar = () => {
           className='navbar-logo'
         />
         <p className='mynavbar-name'>Jozel Surro</p>
-        
       </div>
 
-      <div className='navbar-options-container'>
+      {/* Hamburger */}
+      <div className='hamburger-menu' onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div onClick={toggleMenu} className={`navbar-options-container ${isMenuOpen ? 'show' : ''}`}>
         <li className='nav-list'>
           <a href='#home'className='mynav-link'>Home</a>
         </li>
@@ -45,32 +55,6 @@ export const NavigationBar = () => {
       </div>
     </nav>
 
-
-  //  <Navbar expand="lg" className='navbar'>
-  //   <Container className='nav-container'>
-  //       <NavbarBrand href='#home' id='nav-brand'>
-  //         <img
-  //           src={logo}
-  //           alt='logo'
-  //           width={50}
-  //           height={50}
-  //           className='d-inline-block align-top'
-  //         />{''}
-  //         <p id='nav-brand-name'>Jozel Surro</p>
-  //       </NavbarBrand>
-  //       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  //       <Navbar.Collapse id="basic-navbar-nav">
-  //         <Nav className="ms-auto nav-sections">
-  //               <Nav.Link href="#home" className='nav-link'>Home</Nav.Link>
-  //               <Nav.Link href="#skills" className='nav-link'>Skills</Nav.Link>
-  //               <NavDropdown title="Projects" id="projects-dropdown">
-  //                   <NavDropdown.Item href="#cafe" className='nav-projects-link'>Cafe by the River</NavDropdown.Item>
-  //                   <NavDropdown.Item href="#cafe" className='nav-projects-link'>Tech Shack</NavDropdown.Item>
-  //               </NavDropdown>
-  //           </Nav> 
-  //       </Navbar.Collapse>
-  //   </Container>
-   //</Navbar>
 
   )
 }
