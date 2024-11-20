@@ -214,7 +214,11 @@ export const SkillsPage = () => {
 
         </section>
 
-
+        <div class="container skills-wave-container">
+          <svg viewBox="0 0 500 500" preserveAspectRatio="none" class="wave-svg skills-wave-svg">
+          <path d="M0,150 C100,250 400,50 500,150 L500,500 L0,500 Z" />
+          </svg>
+        </div>
     </div>
   )
 }

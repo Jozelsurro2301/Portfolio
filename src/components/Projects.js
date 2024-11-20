@@ -1,11 +1,12 @@
 import React from 'react'
-import VideoIcon from '../static/img/video_player_temp.jpg'
-import externalLink from '../static/img/external-link.svg'
+import VideoIcon from '../static/img/video_player_temp.svg'
+import externalLink from '../static/img/external-link.png'
 // import BrightsityVideo from '../static/videos/Brightsity.mov'
 
 
 export const Projects = () => {
   return (
+    <>
     <div  className="projects" id="project">
 
         <div  className="project_header">
@@ -181,6 +182,16 @@ export const Projects = () => {
                 />
             </div>
         </section>
+
+
+        
     </div>
+
+<div class="container projects-wave-container">
+<svg viewBox="0 0 500 500" preserveAspectRatio="none" class="wave-svg projects-wave-svg">
+<path d="M0,100 C150,200 350,0 500,100 L500,500 L0,500 Z" />
+</svg>
+</div>
+</>
   )
 }
