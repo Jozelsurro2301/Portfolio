@@ -1,7 +1,8 @@
 import React from 'react'
 import VideoIcon from '../static/img/video_player_temp.svg'
 import externalLink from '../static/img/external-link.png'
-// import BrightsityVideo from '../static/videos/Brightsity.mov'
+ import BrightsityVideo from '../static/videos/Brightsity.mp4'
+ import BrightsityThumbnail from '../static/img/BrightsityThumbnail.png'
 
 
 export const Projects = () => {
@@ -36,16 +37,17 @@ export const Projects = () => {
             </div>
           
             <div className="project_video"> 
-                {/* <video 
+                <video 
                     src={BrightsityVideo}
                     className="video"
                     controls
                     muted
-                /> */}
-                 <img 
+                    poster={BrightsityThumbnail}
+                />
+                 {/* <img 
                     src={VideoIcon}
                     className="video"
-                />
+                /> */}
 
             </div>
         </section>
