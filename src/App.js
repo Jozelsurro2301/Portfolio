@@ -19,6 +19,9 @@ function App() {
         {/* <Wavey/> */}
       <SkillsPage/>
       <Projects/>
+      
+      
+
       <ContactsPage/> 
    
 
