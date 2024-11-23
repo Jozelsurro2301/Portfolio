@@ -78,7 +78,7 @@ const closeModal = () => {
                 <button type='submit' id='mybtn' className='mybtn'>Submitt</button>
             </form> */}
 
-            <form className='Message-form' action='https://formsubmit.co/surrojozel@gmail.com' method='POST' >
+            <form className='Message-form' action='https://formsubmit.co/055b510aea305094367c6f305b1b8d4a' method='POST' >
                 <label htmlFor="name">Name</label>
                 <input type='text' required id='name' name='name'  className='input'/>
                
