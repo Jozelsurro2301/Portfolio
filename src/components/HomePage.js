@@ -17,7 +17,7 @@ export const HomePage = () => {
         <p>Developer</p>
       </div> */}
       <div className='header-info'>
-        <p className='info-title'>Software Develope</p>
+        <p className='info-title'>Software Develop</p>
         <p className='info-desc'>As a recent <span className='desc-bold'>Software Development</span> graduate from Bow Valley College, I am eager to leverage my skills and transition into a software developer role, where I can apply my <span className='desc-bold'>knowledge</span> to real-world challenges and continue growing within the <span className='desc-bold'>tech industry</span>.</p>
       </div>
           
