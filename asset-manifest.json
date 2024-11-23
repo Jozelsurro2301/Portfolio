@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2f77eb4c.css",
+    "main.js": "/Portfolio/static/js/main.d8fd0710.js",
+    "static/media/Co-working.mp4": "/Portfolio/static/media/Co-working.55651c5844024ff2bad3.mp4",
+    "static/media/Brightsity.mp4": "/Portfolio/static/media/Brightsity.1e723a2fe0f4e59e7991.mp4",
+    "static/media/Co-working_Thumbnial.png": "/Portfolio/static/media/Co-working_Thumbnial.814d0e3d7fe90625e556.png",
+    "static/media/dummyPP.webp": "/Portfolio/static/media/dummyPP.9bdacd0f6ea817526208.webp",
+    "static/media/AlegreyaSans-Regular.ttf": "/Portfolio/static/media/AlegreyaSans-Regular.1700f08d80abc337986e.ttf",
+    "static/media/BrightsityThumbnail.png": "/Portfolio/static/media/BrightsityThumbnail.841c4871d1c66676510a.png",
+    "static/media/Csharp.png": "/Portfolio/static/media/Csharp.e205929e2100a640f695.png",
+    "static/media/ProfileP.png": "/Portfolio/static/media/ProfileP.0ef6f455474ea6910be9.png",
+    "static/media/Jozel_Surro_MainResume.pdf": "/Portfolio/static/media/Jozel_Surro_MainResume.e15b95285ab6618e351a.pdf",
+    "static/media/nodeje.png": "/Portfolio/static/media/nodeje.022606a0e9038f0ea5cd.png",
+    "static/media/Html.webp": "/Portfolio/static/media/Html.9ba5683e5bf3666e5666.webp",
+    "static/media/React-Symbol.png": "/Portfolio/static/media/React-Symbol.21ab8e16d0a7abae2b5e.png",
+    "static/media/CSS.webp": "/Portfolio/static/media/CSS.ad1826b69113db4a265d.webp",
+    "static/media/logo.png": "/Portfolio/static/media/logo.b5d1cb266512f7a6622a.png",
+    "static/media/Figma.png": "/Portfolio/static/media/Figma.46400ab8543f71a3650b.png",
+    "static/media/docker.png": "/Portfolio/static/media/docker.3d495637d9e9873bccd2.png",
+    "static/media/mysqyl.png": "/Portfolio/static/media/mysqyl.a04abbf76b39676bc4d9.png",
+    "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.68ac41e1459436bfd38f.png",
+    "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.266bd9fb2663dcc057b4.png",
+    "static/media/MSSQL.webp": "/Portfolio/static/media/MSSQL.bc941e7ebed4b472094d.webp",
+    "static/media/react-native.svg": "/Portfolio/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
+    "static/media/C++.svg": "/Portfolio/static/media/C++.2441702dffa95ca3c92c20816e386640.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.2f77eb4c.css.map": "/Portfolio/static/css/main.2f77eb4c.css.map",
+    "main.d8fd0710.js.map": "/Portfolio/static/js/main.d8fd0710.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f77eb4c.css",
+    "static/js/main.d8fd0710.js"
+  ]
+}
