@@ -1,8 +1,10 @@
 import React from 'react'
-import VideoIcon from '../static/img/video_player_temp.svg'
+// import VideoIcon from '../static/img/video_player_temp.svg'
 import externalLink from '../static/img/external-link.png'
  import BrightsityVideo from '../static/videos/Brightsity.mp4'
  import BrightsityThumbnail from '../static/img/BrightsityThumbnail.png'
+ import CoworkingVideo from '../static/videos/Co-working.mp4'
+ import CoworkingThumbnail from '../static/img/Co-working_Thumbnial.png'
 
 
 export const Projects = () => {
@@ -58,7 +60,7 @@ export const Projects = () => {
             <hr className='hrbreak'></hr>
         </div>
         
-        <section className="project_container" id='SchoolReg'>
+        {/* <section className="project_container" id='SchoolReg'>
 
             <div className="project_video"> 
                 <img 
@@ -83,15 +85,15 @@ export const Projects = () => {
                 <p className="project_desc">Designed and implemented a comprehensive school registration system to streamline the registration process and reduce administrative overhead. Developed user-friendly interfaces and efficient backend process, improving registration efficiency</p>
             </div>
           
-        </section>
+        </section> */}
 
-        <div className='break-lines'>
+        {/* <div className='break-lines'>
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
-        </div>
+        </div> */}
 
-        <section className="project_container" id='FinApp'>
+        {/* <section className="project_container" id='FinApp'>
             
             <div className="project_info">
                 <div className="project_title">
@@ -121,10 +123,10 @@ export const Projects = () => {
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
-        </div>
+        </div> */}
 
 
-        <section className="project_container" id='SpotifyApp'>
+        {/* <section className="project_container" id='SpotifyApp'>
 
             <div className="project_video"> 
                 <img 
@@ -156,7 +158,7 @@ export const Projects = () => {
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
-        </div>
+        </div> */}
 
         <section className="project_container" id='Co-working'>
             
@@ -178,10 +180,20 @@ export const Projects = () => {
 
             
             <div className="project_video"> 
-                <img 
+                {/* <img 
                     src={VideoIcon}
                     className="video"
+                /> */}
+
+                <video
+                    className='video'
+                    src={CoworkingVideo}
+                    muted
+                    poster={CoworkingThumbnail}
+                    controls
                 />
+
+              
             </div>
         </section>
 

@@ -5,6 +5,7 @@ import LinkedIn from '../static/img/Linkedin.png'
 import Git from '../static/img/github.png'
 import dummyPP from '../static/img/dummyPP.webp'
 import ResumeFile from '../static/files/Jozel_Surro_MainResume.pdf'
+import ProfileP from '../static/img/ProfileP.png'
 
 
 
@@ -22,7 +23,7 @@ export const HomePage = () => {
           
       <div className='header-photo'>
         <img
-          src={dummyPP}
+          src={ProfileP}
           className='personal-photo'
         />
       </div>

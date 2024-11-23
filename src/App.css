@@ -211,14 +211,14 @@ body{
   flex-direction: column;
 }
 
-.floater{
+/* .floater{
   position:absolute;
   top: 0;
   left: 100px;
   font-size: clamp(3rem, 0.436rem + 10.94vw, 7rem);
   z-index: 1;
   opacity: .15;
-}
+} */
 
 .home-parent-header {
   display: flex;
@@ -269,12 +269,15 @@ perspective: 100px;
 
 .header-photo{
   margin-right: 5px;
+
 }
 
 .personal-photo{
   max-width: 100%;
+  min-width: 150px;
   height: auto;
-  border-radius: 25%;
+  border-radius: 200px;
+
 }
 
 
@@ -368,6 +371,9 @@ perspective: 100px;
     margin-right: 1rem;
   }
 
+  .personal-photo{
+    min-width: 280px;
+  }
   .home-parent-footer{
     width: auto;
     max-width: 10%;

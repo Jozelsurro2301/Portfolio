@@ -32,7 +32,7 @@ export const NavigationBar = () => {
         <span></span>
       </div>
 
-      <div onClick={toggleMenu} className={`navbar-options-container ${isMenuOpen ? 'show' : ''}`}>
+      <div className={`navbar-options-container ${isMenuOpen ? 'show' : ''}`}>
         <li className='nav-list'>
           <a href='#home'className='mynav-link'>Home</a>
         </li>
