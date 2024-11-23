@@ -277,6 +277,8 @@ perspective: 100px;
   min-width: 150px;
   height: auto;
   border-radius: 200px;
+  filter: brightness(1.2) ;
+
 
 }
 
@@ -434,11 +436,17 @@ perspective: 100px;
   max-width: 120px;
   min-height: auto;
   height: auto;
+  transition: transform 0.4s ease, box-shadow 0.3s ease-in-out;
+  transform: perspective(1000px);
+  /* transition: transform 0.4s ease, filter 0.3s ease, transform 0.2s ease;
+  transform: scale(1) skew(0deg, 0deg); */
+  filter: brightness(100%);
 }
 
 .skills-logo:hover {
-  transform: scale(1.1) rotateY(20deg) rotateX(20deg); 
-   /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);  */
+  transform: scale(1.05) translateY(-30px) translateX(10PX) rotateZ(20deg); 
+   /* transform: scale(1.1) skew(-10deg, -10deg); */
+   filter: brightness(1.2) contrast(1.2);
 }
 
 .skills-logo-row{
