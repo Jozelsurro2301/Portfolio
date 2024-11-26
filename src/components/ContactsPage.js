@@ -94,7 +94,7 @@ const closeModal = () => {
             
                 <input type="hidden" name="_template" value="table"></input>
 
-                <button type='submit' id='mybtn' className='mybtn'>Submitt</button>
+                <button type='submit' id='mybtn' className='mybtn'>Submit</button>
             </form>
 
 

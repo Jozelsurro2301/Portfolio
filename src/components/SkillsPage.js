@@ -6,7 +6,7 @@ import Csharp from '../static/img/Csharp.png'
 import JavaScript from '../static/img/JavaScript.png'
 import Reactlogo from '../static/img/React-Symbol.png'
 import ReactNlogo from '../static/img/react-native.svg'
-import MSSQLlogo from '../static/img/MSSQL.webp'
+import ExpoLogo from '../static/img/expo_logo.webp'
 import MySQLlogo from '../static/img/mysqyl.png'
 import Dockerlogo from '../static/img/docker.png'
 import Gitlogo from '../static/img/git.png'
@@ -123,7 +123,7 @@ export const SkillsPage = () => {
           <img src={Reactlogo} className="skills-logo" alt='React Logo'/>
         </div>
         <div className="skills-logo-row" style={{ gridArea: 'j' }} >
-          <img src={MSSQLlogo} className="skills-logo" alt='MSSQL Logo'/>
+          <img src={ExpoLogo} className="skills-logo" alt='Expo Logo'/>
         </div>
         <div className="skills-logo-row" style={{ gridArea: 'k' }}>
           <img src={MySQLlogo} className="skills-logo" alt='MySQL Logo'/>

@@ -33,21 +33,21 @@ export const HomePage = () => {
 
 
     <section className='home-parent-footer'>
-      <a href={ResumeFile}>
+      <a href={ResumeFile} className='header-logo-container'>
         <img
         src={Resume}
         className='header-logo resumelogo'
         alt='Resume Logo'
         />
       </a>
-      <a href="https://www.linkedin.com/in/jozelsurro1998">
+      <a href="https://www.linkedin.com/in/jozelsurro1998" className='header-logo-container'>
         <img
         src={LinkedIn}
         className='header-logo'
         alt='LinkedIn Logo'
         />
       </a>
-      <a href="https://github.com/Jozelsurro2301">
+      <a href="https://github.com/Jozelsurro2301" className='header-logo-container'>
         <img
         src={Git}
         className='header-logo gitlogo'
