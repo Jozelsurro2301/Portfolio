@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c14c3b9b.css",
-    "main.js": "/Portfolio/static/js/main.e7d53fef.js",
+    "main.css": "/Portfolio/static/css/main.87bbd9bf.css",
+    "main.js": "/Portfolio/static/js/main.2e8220b2.js",
     "static/media/Co-working.mp4": "/Portfolio/static/media/Co-working.55651c5844024ff2bad3.mp4",
     "static/media/Brightsity.mp4": "/Portfolio/static/media/Brightsity.1e723a2fe0f4e59e7991.mp4",
     "static/media/Co-working_Thumbnial.png": "/Portfolio/static/media/Co-working_Thumbnial.814d0e3d7fe90625e556.png",
-    "static/media/dummyPP.webp": "/Portfolio/static/media/dummyPP.9bdacd0f6ea817526208.webp",
     "static/media/AlegreyaSans-Regular.ttf": "/Portfolio/static/media/AlegreyaSans-Regular.1700f08d80abc337986e.ttf",
     "static/media/BrightsityThumbnail.png": "/Portfolio/static/media/BrightsityThumbnail.841c4871d1c66676510a.png",
     "static/media/Csharp.png": "/Portfolio/static/media/Csharp.e205929e2100a640f695.png",
@@ -25,11 +24,11 @@
     "static/media/react-native.svg": "/Portfolio/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/C++.svg": "/Portfolio/static/media/C++.2441702dffa95ca3c92c20816e386640.svg",
     "index.html": "/Portfolio/index.html",
-    "main.c14c3b9b.css.map": "/Portfolio/static/css/main.c14c3b9b.css.map",
-    "main.e7d53fef.js.map": "/Portfolio/static/js/main.e7d53fef.js.map"
+    "main.87bbd9bf.css.map": "/Portfolio/static/css/main.87bbd9bf.css.map",
+    "main.2e8220b2.js.map": "/Portfolio/static/js/main.2e8220b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c14c3b9b.css",
-    "static/js/main.e7d53fef.js"
+    "static/css/main.87bbd9bf.css",
+    "static/js/main.2e8220b2.js"
   ]
 }
