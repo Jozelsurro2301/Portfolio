@@ -21,6 +21,7 @@ export const NavigationBar = () => {
         <img  
           src={logo}
           className='navbar-logo'
+          alt='Brand Logo'
         />
         <p className='mynavbar-name'>Jozel Surro</p>
       </div>

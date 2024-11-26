@@ -428,6 +428,9 @@ perspective: 100px;
   "k k k k k q q q q q f f f f f";
   gap: 5px;
   padding: 5%;
+
+  /* gap: 10px; 
+  padding: 5%;  */
 }
 
 
@@ -436,26 +439,36 @@ perspective: 100px;
   max-width: 120px;
   min-height: auto;
   height: auto;
-  transition: transform 0.4s ease, box-shadow 0.3s ease-in-out;
-  transform: perspective(1000px);
+  /* transition: transform 0.4s ease, box-shadow 0.3s ease-in-out;
+  transform: perspective(1000px); */
   /* transition: transform 0.4s ease, filter 0.3s ease, transform 0.2s ease;
   transform: scale(1) skew(0deg, 0deg); */
   filter: brightness(100%);
+  transform: translateZ(50px);
+
+  /* object-fit: contain; */
+ 
 }
 
 .skills-logo:hover {
-  transform: scale(1.05) translateY(-30px) translateX(10PX) rotateZ(20deg); 
-   /* transform: scale(1.1) skew(-10deg, -10deg); */
+  /* transform: scale(1.05) translateY(-30px) translateX(10PX) rotateZ(20deg);  */
    filter: brightness(1.2) contrast(1.2);
-}
+} 
 
 .skills-logo-row{
   display: flex;
   justify-content: center;
   align-items: center;
-  perspective: 100px; 
+  /* perspective: 100px;  */
   background-color: transparent; 
   position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(1000px); 
+
+/* 
+  height: 150px; Adjust as needed */
+  /* width: auto; */
+  
   
 }
 
@@ -744,3 +757,5 @@ perspective: 100px;
 .close-modal-btn:hover {
   background: #0056b3;
 }
+
+

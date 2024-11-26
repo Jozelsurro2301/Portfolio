@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+
 import Resume from '../static/img/resume.png'
 import LinkedIn from '../static/img/Linkedin.png'
 import Git from '../static/img/github.png'
-import dummyPP from '../static/img/dummyPP.webp'
+// import dummyPP from '../static/img/dummyPP.webp'
 import ResumeFile from '../static/files/Jozel_Surro_MainResume.pdf'
 import ProfileP from '../static/img/ProfileP.png'
 
@@ -25,6 +25,7 @@ export const HomePage = () => {
         <img
           src={ProfileP}
           className='personal-photo'
+          alt='Personal'
         />
       </div>
     </section>
@@ -36,18 +37,21 @@ export const HomePage = () => {
         <img
         src={Resume}
         className='header-logo resumelogo'
+        alt='Resume Logo'
         />
       </a>
       <a href="https://www.linkedin.com/in/jozelsurro1998">
         <img
         src={LinkedIn}
         className='header-logo'
+        alt='LinkedIn Logo'
         />
       </a>
       <a href="https://github.com/Jozelsurro2301">
         <img
         src={Git}
         className='header-logo gitlogo'
+        alt='Github Logo'
         />
       </a>
     </section>
