@@ -99,7 +99,7 @@ export const SkillsPage = () => {
         <section className='skills-header'>
             <p className='skills-title'>Skills</p>
         </section>
-        <hr className='styled-hr'/>
+        {/* <hr className='styled-hr'/> */}
         <section className='skills-logos'>
             {/* First Row */}
         <div className="skills-logo-row" style={{ gridArea: 'a' }} >

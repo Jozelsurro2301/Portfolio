@@ -5,6 +5,10 @@ import externalLink from '../static/img/external-link.png'
  import BrightsityThumbnail from '../static/img/BrightsityThumbnail.png'
  import CoworkingVideo from '../static/videos/Co-working.mp4'
  import CoworkingThumbnail from '../static/img/Co-working_Thumbnial.png'
+ import Budget_Buddy  from '../static/videos/Budget_Buddy.mp4'
+ import School_Reg from '../static/videos/School_Reg.mp4'
+ import School_Reg_Thumnail from '../static/img/School_Reg_Thumbnail.png'
+ import Budget_Buddy_Thumbnail from '../static/img/Budget_Buddy_Thumbnail.png'
 
 
 export const Projects = () => {
@@ -15,7 +19,7 @@ export const Projects = () => {
         <div  className="project_header">
             <p className="project_header_text">Projects</p>
         </div>
-        <hr className='header-hrbreak'></hr>
+        {/* <hr className='header-hrbreak'></hr> */}
 
         
 
@@ -59,14 +63,111 @@ export const Projects = () => {
             <hr className='hrbreak'></hr>
             <hr className='hrbreak'></hr>
         </div>
-        
-        {/* <section className="project_container" id='SchoolReg'>
 
-            <div className="project_video"> 
-                <img 
+
+        <section className="project_container" id='Co-working'>
+
+
+        <div className="project_video"> 
+                {/* <img 
                     src={VideoIcon}
                     className="video"
+                /> */}
+
+                <video
+                    className='video'
+                    src={CoworkingVideo}
+                    muted
+                    poster={CoworkingThumbnail}
+                    controls
                 />
+
+              
+            </div>
+            
+            <div className="project_info">
+                <div className="project_title">
+                    <p className="project_name">Co-working Registry Website</p>
+
+                    <a href="https://github.com/Jozelsurro2301/CoWorkingRegistry_WebApp">
+                        <img
+                            src={externalLink}
+                            alt="External Link"
+                            className="external_link"
+                        />
+                    </a>
+                </div>
+
+                <p className="project_desc">Created a co-working space reservation system akin to Airbnb, allowing users to book and manage workspace reservations. Implemented robust security features and real-time booking updates, resulting in a seamless user experience.</p>
+            </div>
+
+            
+        </section>
+        
+        
+
+        <div className='break-lines'>
+            <hr className='hrbreak'></hr>
+            <hr className='hrbreak'></hr>
+            <hr className='hrbreak'></hr>
+        </div>
+
+        <section className="project_container" id='FinApp'>
+            
+            <div className="project_info">
+                <div className="project_title">
+                    <p className="project_name">Financial Budget Mobile Application</p>
+
+                    <a href="https://github.com/Jozelsurro2301/BudgetBuddy_MobileApp">
+                        <img
+                            src={externalLink}
+                            alt="External Link"
+                            className="external_link"
+                        />
+                    </a>
+                </div>
+
+                <p className="project_desc">Developed and designed an android mobile application for budget management, enabling users to track and manage their expenses efficiently.</p>
+
+            </div>
+            <div className="project_video"> 
+                <video 
+                    src={Budget_Buddy}
+                    className="video"
+                    controls
+                    muted
+                    poster={Budget_Buddy_Thumbnail}
+                />
+                 {/* <img 
+                    src={VideoIcon}
+                    className="video"
+                /> */}
+
+            </div>
+        </section>
+
+        <div className='break-lines'>
+            <hr className='hrbreak'></hr>
+            <hr className='hrbreak'></hr>
+            <hr className='hrbreak'></hr>
+        </div>
+
+
+        <section className="project_container" id='SchoolReg'>
+
+        <div className="project_video"> 
+                <video 
+                    src={School_Reg}
+                    className="video"
+                    controls
+                    muted
+                    poster={School_Reg_Thumnail}
+                />
+                 {/* <img 
+                    src={VideoIcon}
+                    className="video"
+                /> */}
+
             </div>
             
             <div className="project_info">
@@ -85,45 +186,7 @@ export const Projects = () => {
                 <p className="project_desc">Designed and implemented a comprehensive school registration system to streamline the registration process and reduce administrative overhead. Developed user-friendly interfaces and efficient backend process, improving registration efficiency</p>
             </div>
           
-        </section> */}
-
-        {/* <div className='break-lines'>
-            <hr className='hrbreak'></hr>
-            <hr className='hrbreak'></hr>
-            <hr className='hrbreak'></hr>
-        </div> */}
-
-        {/* <section className="project_container" id='FinApp'>
-            
-            <div className="project_info">
-                <div className="project_title">
-                    <p className="project_name">Financial Budget Mobile Application</p>
-
-                    <a href="https://github.com/Jozelsurro2301/BudgetBuddy_MobileApp">
-                        <img
-                            src={externalLink}
-                            alt="External Link"
-                            className="external_link"
-                        />
-                    </a>
-                </div>
-
-                <p className="project_desc">Developed and designed an android mobile application for budget management, enabling users to track and manage their expenses efficiently.</p>
-
-            </div>
-                    <div className="project_video"> 
-                <img 
-                    src={VideoIcon}
-                    className="video"
-                />
-            </div>
         </section>
-
-        <div className='break-lines'>
-            <hr className='hrbreak'></hr>
-            <hr className='hrbreak'></hr>
-            <hr className='hrbreak'></hr>
-        </div> */}
 
 
         {/* <section className="project_container" id='SpotifyApp'>
@@ -160,42 +223,7 @@ export const Projects = () => {
             <hr className='hrbreak'></hr>
         </div> */}
 
-        <section className="project_container" id='Co-working'>
-            
-            <div className="project_info">
-                <div className="project_title">
-                    <p className="project_name">Co-working Registry Website</p>
-
-                    <a href="https://github.com/Jozelsurro2301/CoWorkingRegistry_WebApp">
-                        <img
-                            src={externalLink}
-                            alt="External Link"
-                            className="external_link"
-                        />
-                    </a>
-                </div>
-
-                <p className="project_desc">Created a co-working space reservation system akin to Airbnb, allowing users to book and manage workspace reservations. Implemented robust security features and real-time booking updates, resulting in a seamless user experience.</p>
-            </div>
-
-            
-            <div className="project_video"> 
-                {/* <img 
-                    src={VideoIcon}
-                    className="video"
-                /> */}
-
-                <video
-                    className='video'
-                    src={CoworkingVideo}
-                    muted
-                    poster={CoworkingThumbnail}
-                    controls
-                />
-
-              
-            </div>
-        </section>
+        
 
 
         
