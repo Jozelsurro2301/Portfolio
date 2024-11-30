@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5dcc083f.css",
-    "main.js": "/Portfolio/static/js/main.8b210410.js",
+    "main.css": "/Portfolio/static/css/main.5c971950.css",
+    "main.js": "/Portfolio/static/js/main.f42f19b1.js",
     "static/media/Co-working.mp4": "/Portfolio/static/media/Co-working.55651c5844024ff2bad3.mp4",
+    "static/media/School_Reg.mp4": "/Portfolio/static/media/School_Reg.34806604e4b04078ed4a.mp4",
     "static/media/Brightsity.mp4": "/Portfolio/static/media/Brightsity.1e723a2fe0f4e59e7991.mp4",
+    "static/media/Budget_Buddy.mp4": "/Portfolio/static/media/Budget_Buddy.86289b4fc0e5f5a6b24a.mp4",
+    "static/media/School_Reg_Thumbnail.png": "/Portfolio/static/media/School_Reg_Thumbnail.a7678e39a00600eb4cb7.png",
     "static/media/Co-working_Thumbnial.png": "/Portfolio/static/media/Co-working_Thumbnial.814d0e3d7fe90625e556.png",
+    "static/media/Budget_Buddy_Thumbnail.png": "/Portfolio/static/media/Budget_Buddy_Thumbnail.c7c186d462f29a600c7c.png",
     "static/media/AlegreyaSans-Regular.ttf": "/Portfolio/static/media/AlegreyaSans-Regular.1700f08d80abc337986e.ttf",
     "static/media/BrightsityThumbnail.png": "/Portfolio/static/media/BrightsityThumbnail.841c4871d1c66676510a.png",
     "static/media/Csharp.png": "/Portfolio/static/media/Csharp.e205929e2100a640f695.png",
@@ -24,11 +28,11 @@
     "static/media/react-native.svg": "/Portfolio/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/C++.svg": "/Portfolio/static/media/C++.2441702dffa95ca3c92c20816e386640.svg",
     "index.html": "/Portfolio/index.html",
-    "main.5dcc083f.css.map": "/Portfolio/static/css/main.5dcc083f.css.map",
-    "main.8b210410.js.map": "/Portfolio/static/js/main.8b210410.js.map"
+    "main.5c971950.css.map": "/Portfolio/static/css/main.5c971950.css.map",
+    "main.f42f19b1.js.map": "/Portfolio/static/js/main.f42f19b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dcc083f.css",
-    "static/js/main.8b210410.js"
+    "static/css/main.5c971950.css",
+    "static/js/main.f42f19b1.js"
   ]
 }
