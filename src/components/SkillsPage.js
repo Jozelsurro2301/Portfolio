@@ -8,6 +8,9 @@ import Reactlogo from '../static/img/React-Symbol.png'
 import ReactNlogo from '../static/img/react-native.svg'
 import ExpoLogo from '../static/img/expo_logo.webp'
 import MySQLlogo from '../static/img/mysqyl.png'
+import SQLiteLogo from '../static/img/SQLiteLogo.png'
+import AndriodStudioLogo   from '../static/img/Andriod_StudioLogo.webp'
+
 import Dockerlogo from '../static/img/docker.png'
 import Gitlogo from '../static/img/git.png'
 import Postmanlogo from '../static/img/Postman.png'
@@ -134,7 +137,7 @@ export const SkillsPage = () => {
 
         {/* Third Row */}
         <div className="skills-logo-row" style={{ gridArea: 'm' }} >
-          <img src={Dockerlogo} className="skills-logo" alt='Docker Logo'/>
+          <img src={SQLiteLogo} className="skills-logo" alt='Docker Logo'/>
         </div>
         <div className="skills-logo-row" style={{ gridArea: 'n' }} >
           <img src={Gitlogo} className="skills-logo" alt='Github Logo'/>
@@ -150,6 +153,10 @@ export const SkillsPage = () => {
         <div className="skills-logo-row" style={{ gridArea: 'q' }} >
           <img src={Figmalogo} className="skills-logo" alt='Figma Logo'/>
         </div>
+        <div className="skills-logo-row" style={{ gridArea: 'r' }} >
+          <img src={AndriodStudioLogo} className="skills-logo" alt='Figma Logo'/>
+        </div>
+
 
         </section>
 

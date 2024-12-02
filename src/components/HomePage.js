@@ -18,8 +18,17 @@ export const HomePage = () => {
       </div> */}
       <div className='header-info'>
         <p className='info-title'>Software Developer</p>
-        <p className='info-desc'>As a recent <span className='desc-bold'>Software Development</span> graduate from Bow Valley College, I am eager to leverage my skills and transition into a software developer role, where I can apply my <span className='desc-bold'>knowledge</span> to real-world challenges and continue growing within the <span className='desc-bold'>tech industry</span>.</p>
+        {/* <p className='info-desc'>As a recent <span className='desc-bold'>Software Development</span> graduate from Bow Valley College, I am eager to leverage my skills and transition into a software developer role, where I can apply my <span className='desc-bold'>knowledge</span> to real-world challenges and continue growing within the <span className='desc-bold'>tech industry</span>.</p> */}
+        <p className='info-desc' >
+           Hi!  I am a recent graduate with a solid foundation in <span className='desc-bold'>Software Development</span> and a keen eye for detail. I bring a proactive approach to problem-solving and innovation. I thrive in dynamic and collaborative environments, where I can leverage my technical skills to develop efficient, user-focused solutions.  
+            <br /><br />
+          My goal is to contribute to projects that shape the future of technology while continuously expanding my knowledge and adapting to emerging trends. </p>
       </div>
+
+      <p className='info-desc'>
+
+</p>
+
           
       <div className='header-photo'>
         <img

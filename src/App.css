@@ -435,9 +435,9 @@ perspective: 100px;
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
   "a a a b b b c c c d d d e e e"
-  "p p p p p p j j j l l l l l l"
-  "m m m m m m n n n o o o o o o"
-  "k k k k k q q q q q f f f f f";
+  "p p p p j j j r r r r l l l l"
+  "f f f f f f n n n o o o o o o"
+  "k k k k k q q q q q m m m m m";
   gap: 5px;
   padding: 5%;
 }
@@ -482,9 +482,9 @@ perspective: 100px;
   .skills-logos{
   grid-template-areas: 
   "a a a b b b c c c d d d e e e"
-  "f f f f j j j j k k k k l l l"
-  "m m m m m m n n n o o o o o o"
-  "p p p p p p p p q q q q q q q";
+  "f f f f j j j j r r r r l l l"
+  "p p p p p p n n n o o o o o o"
+  "m m m m m m q q q k k k k k k";
 }
 
 .skills-logo{
@@ -565,6 +565,30 @@ perspective: 100px;
   margin-top: .5rem;
 }
 
+.project_desc_bold{
+  font-weight: 900;
+  color: burlywood;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7), /* Bottom shadow */
+               4px 4px 2px rgba(0, 0, 0, 0.5); /* Depth effect */
+  transform: translateZ(5px); /* Slight pop-out effect */
+  perspective: 100px;
+  font-size: clamp(1rem, 0.429rem + 1.524vw, 1.8rem);
+}
+
+.project_tools{
+  /* display: flex; */
+  align-items: center;
+  padding-top: 10px;
+}
+
+.tools{
+  max-width: 25px;
+  height: auto;
+  margin-right: 10px;
+  filter: brightness(120%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
 .project_video{
   padding: 2%;
 }
@@ -588,6 +612,15 @@ perspective: 100px;
     max-width: 220px;
     min-height: 150px;
     max-height: 400px;
+  }
+
+  .tools{
+    max-width: 45px;
+    transition: transform 0.3s ease,
+  }
+
+  .tools:hover{
+    transform: scale(1.2);
   }
 }
 
